@@ -1,3 +1,7 @@
+import {decode, encode} from 'base-64'
+
+if (!global.btoa) global.btoa = encode
+if (!global.atob) global.atob = decode
 if (typeof __dirname === 'undefined') global.__dirname = '/'
 if (typeof __filename === 'undefined') global.__filename = ''
 if (typeof process === 'undefined') {
@@ -23,4 +27,4 @@ if (typeof localStorage !== 'undefined') {
 
 // If using the crypto shim, uncomment the following line to ensure
 // crypto is loaded first, so it can populate global.crypto
-// require('crypto')
+require('crypto')

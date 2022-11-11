@@ -9,4 +9,16 @@ export default {
       userId: 'Enter a user id',
     },
   },
+  home: {
+    balance: 'Balance: {{amount}}',
+    send: 'Send',
+    receive: 'Receive',
+    transactions: 'Transactions',
+    labels: {
+      address: 'Enter ethereum address'
+    },
+    errors: {
+      invalidAddress: 'Invalid address'
+    }
+  },
 }
