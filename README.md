@@ -2,7 +2,7 @@
 
 React Native Boilerplate for Webjs Ethereum projects
 
-This project is a boilerplate for developing blockchain applications with React Native. You can use any EVM chain. RPC proivders are listed in constants.
+This project is a boilerplate for developing blockchain applications with React Native. You can use any EVM chain. RPC providers are listed in constants.
 
 ### Installation 
 
